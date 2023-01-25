@@ -1,0 +1,3848 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0916.1526                               -->
+<workbook original-version='18.1' source-build='2022.2.2 (20222.22.0916.1526)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Professional workin in same maj (Project 1 data)' inline='true' name='federated.16j4pp21qlwrj91gciwem192mmq0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Project 1 data' name='excel-direct.0hswmfm15ldt9s136binj1ctf1yq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Project_1/Project 1 data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0hswmfm15ldt9s136binj1ctf1yq' name='Professional workin in same maj' table='[&apos;Professional workin in same maj$&apos;]' type='table'>
+          <columns gridOrigin='A1:C7:no:A1:C7:0' header='yes' outcome='6'>
+            <column datatype='string' name='Profession' ordinal='0' />
+            <column datatype='integer' name='Men (%)' ordinal='1' />
+            <column datatype='integer' name='Women (%)' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0hswmfm15ldt9s136binj1ctf1yq' name='Professional workin in same maj' table='[&apos;Professional workin in same maj$&apos;]' type='table'>
+          <columns gridOrigin='A1:C7:no:A1:C7:0' header='yes' outcome='6'>
+            <column datatype='string' name='Profession' ordinal='0' />
+            <column datatype='integer' name='Men (%)' ordinal='1' />
+            <column datatype='integer' name='Women (%)' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Professional workin in same maj]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C7:no:A1:C7:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profession</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Profession]</local-name>
+            <parent-name>[Professional workin in same maj]</parent-name>
+            <remote-alias>Profession</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Men (%)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Men (%)]</local-name>
+            <parent-name>[Professional workin in same maj]</parent-name>
+            <remote-alias>Men (%)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Women (%)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Women (%)]</local-name>
+            <parent-name>[Professional workin in same maj]</parent-name>
+            <remote-alias>Women (%)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Professional workin in same maj' datatype='table' name='[__tableau_internal_object_id__].[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Professional workin in same maj' id='Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2'>
+            <properties context=''>
+              <relation connection='excel-direct.0hswmfm15ldt9s136binj1ctf1yq' name='Professional workin in same maj' table='[&apos;Professional workin in same maj$&apos;]' type='table'>
+                <columns gridOrigin='A1:C7:no:A1:C7:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Profession' ordinal='0' />
+                  <column datatype='integer' name='Men (%)' ordinal='1' />
+                  <column datatype='integer' name='Women (%)' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Median Annual Earnings (Project 1 data)' inline='true' name='federated.1tpo3ms1up7dda1f4v4ev08gixff' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Project 1 data' name='excel-direct.08786cg16twi6w1g59l2c004pqja'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Project_1/Project 1 data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.08786cg16twi6w1g59l2c004pqja' name='Median Annual Earnings' table='[&apos;Median Annual Earnings$&apos;]' type='table'>
+          <columns gridOrigin='A1:D5:no:A1:D5:0' header='yes' outcome='2'>
+            <column datatype='string' name='Ethnicity' ordinal='0' />
+            <column datatype='integer' name='All (Dollars)' ordinal='1' />
+            <column datatype='integer' name='Men (Dollars)' ordinal='2' />
+            <column datatype='integer' name='Women (Dollars)' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.08786cg16twi6w1g59l2c004pqja' name='Median Annual Earnings' table='[&apos;Median Annual Earnings$&apos;]' type='table'>
+          <columns gridOrigin='A1:D5:no:A1:D5:0' header='yes' outcome='2'>
+            <column datatype='string' name='Ethnicity' ordinal='0' />
+            <column datatype='integer' name='All (Dollars)' ordinal='1' />
+            <column datatype='integer' name='Men (Dollars)' ordinal='2' />
+            <column datatype='integer' name='Women (Dollars)' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Median Annual Earnings]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D5:no:A1:D5:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ethnicity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ethnicity]</local-name>
+            <parent-name>[Median Annual Earnings]</parent-name>
+            <remote-alias>Ethnicity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Median Annual Earnings_5A68E857B2584B69B8CD511913F129B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All (Dollars)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[All (Dollars)]</local-name>
+            <parent-name>[Median Annual Earnings]</parent-name>
+            <remote-alias>All (Dollars)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Median Annual Earnings_5A68E857B2584B69B8CD511913F129B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Men (Dollars)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Men (Dollars)]</local-name>
+            <parent-name>[Median Annual Earnings]</parent-name>
+            <remote-alias>Men (Dollars)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Median Annual Earnings_5A68E857B2584B69B8CD511913F129B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Women (Dollars)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Women (Dollars)]</local-name>
+            <parent-name>[Median Annual Earnings]</parent-name>
+            <remote-alias>Women (Dollars)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Median Annual Earnings_5A68E857B2584B69B8CD511913F129B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Median Annual Earnings' datatype='table' name='[__tableau_internal_object_id__].[Median Annual Earnings_5A68E857B2584B69B8CD511913F129B3]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Median Annual Earnings' id='Median Annual Earnings_5A68E857B2584B69B8CD511913F129B3'>
+            <properties context=''>
+              <relation connection='excel-direct.08786cg16twi6w1g59l2c004pqja' name='Median Annual Earnings' table='[&apos;Median Annual Earnings$&apos;]' type='table'>
+                <columns gridOrigin='A1:D5:no:A1:D5:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Ethnicity' ordinal='0' />
+                  <column datatype='integer' name='All (Dollars)' ordinal='1' />
+                  <column datatype='integer' name='Men (Dollars)' ordinal='2' />
+                  <column datatype='integer' name='Women (Dollars)' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Stem jobs by Education (Project 1 data)' inline='true' name='federated.041jxpb1f4l7r011acbhl1r9t4j6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Project 1 data' name='excel-direct.0pogxqp07o3t1a12x1hfa1gf9u7q'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Project_1/Project 1 data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0pogxqp07o3t1a12x1hfa1gf9u7q' name='Stem jobs by Education' table='[&apos;Stem jobs by Education$&apos;]' type='table'>
+          <columns gridOrigin='A1:F9:no:A1:F9:0' header='yes' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='High school or less' ordinal='1' />
+            <column datatype='real' name='Some college' ordinal='2' />
+            <column datatype='string' name='Bachelor&apos;s degree' ordinal='3' />
+            <column datatype='real' name='Master&apos;s degree' ordinal='4' />
+            <column datatype='string' name='Professional Doctoral degree' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0pogxqp07o3t1a12x1hfa1gf9u7q' name='Stem jobs by Education' table='[&apos;Stem jobs by Education$&apos;]' type='table'>
+          <columns gridOrigin='A1:F9:no:A1:F9:0' header='yes' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='High school or less' ordinal='1' />
+            <column datatype='real' name='Some college' ordinal='2' />
+            <column datatype='string' name='Bachelor&apos;s degree' ordinal='3' />
+            <column datatype='real' name='Master&apos;s degree' ordinal='4' />
+            <column datatype='string' name='Professional Doctoral degree' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F9:no:A1:F9:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High school or less</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[High school or less]</local-name>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias>High school or less</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Some college</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Some college]</local-name>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias>Some college</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bachelor&apos;s degree</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Bachelor&apos;s degree]</local-name>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias>Bachelor&apos;s degree</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Master&apos;s degree</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Master&apos;s degree]</local-name>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias>Master&apos;s degree</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Professional Doctoral degree</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Professional Doctoral degree]</local-name>
+            <parent-name>[Stem jobs by Education]</parent-name>
+            <remote-alias>Professional Doctoral degree</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Master&apos;s degree]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Some college]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Stem jobs by Education' datatype='table' name='[__tableau_internal_object_id__].[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]' derivation='Count' name='[pcto:cnt:Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:F1:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72]' derivation='Count' name='[pcto:cnt:Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Table' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Master&apos;s degree]' derivation='Sum' name='[pcto:sum:Master&apos;s degree:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:F1:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Master&apos;s degree]' derivation='Sum' name='[pcto:sum:Master&apos;s degree:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Table' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Master&apos;s degree]' derivation='Sum' name='[pcto:sum:Master&apos;s degree:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Some college]' derivation='Sum' name='[pcto:sum:Some college:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:F1:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Some college]' derivation='Sum' name='[pcto:sum:Some college:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Some college]' derivation='Sum' name='[pcto:sum:Some college:qk:3]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Table' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Some college]' derivation='Sum' name='[pcto:sum:Some college:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Master&apos;s degree]' derivation='Sum' name='[sum:Master&apos;s degree:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Some college]' derivation='Sum' name='[sum:Some college:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[__tableau_internal_object_id__].[cnt:Professional workin in same maj_05D65F4588A54D6F9829C99FF4BFC451:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:cnt:Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72:qk:1]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:cnt:Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Master&apos;s degree:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[sum:Master&apos;s degree:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[__tableau_internal_object_id__].[cnt:Stem jobs by Education_3A55BC96EDF84572A9B5EEDF9A48F984:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[__tableau_internal_object_id__].[cnt:Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Some college:qk:1]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Some college:qk:3]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[sum:Women (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[__tableau_internal_object_id__].[cnt:Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Master&apos;s degree:qk:1]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Master&apos;s degree:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Some college:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Some college:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[sum:Men (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[sum:Some college:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Stem jobs by Education' id='Stem jobs by Education_4CF93A01029E405B92213EA5BB8EBA72'>
+            <properties context=''>
+              <relation connection='excel-direct.0pogxqp07o3t1a12x1hfa1gf9u7q' name='Stem jobs by Education' table='[&apos;Stem jobs by Education$&apos;]' type='table'>
+                <columns gridOrigin='A1:F9:no:A1:F9:0' header='yes' outcome='2'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='High school or less' ordinal='1' />
+                  <column datatype='real' name='Some college' ordinal='2' />
+                  <column datatype='string' name='Bachelor&apos;s degree' ordinal='3' />
+                  <column datatype='real' name='Master&apos;s degree' ordinal='4' />
+                  <column datatype='string' name='Professional Doctoral degree' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Employed Persons (Project 1 data)' inline='true' name='federated.11ie2tz0rr2u4a175r3nj1nlz5un' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Project 1 data' name='excel-direct.0qp7lvn1i1figs1fawg1q026eiv0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Project_1/Project 1 data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0qp7lvn1i1figs1fawg1q026eiv0' name='Employed Persons' table='[&apos;Employed Persons$&apos;]' type='table'>
+          <columns gridOrigin='A1:G600:no:A1:G600:0' header='yes' outcome='2'>
+            <column datatype='string' name='Occupation' ordinal='0' />
+            <column datatype='integer' name='Total employed' ordinal='1' />
+            <column datatype='real' name='Women (Percent of total employed)' ordinal='2' />
+            <column datatype='string' name='White (Percent of total employed)' ordinal='3' />
+            <column datatype='string' name='Black or African American (Percent of total employed)' ordinal='4' />
+            <column datatype='string' name='Asian (Percent of total employed)' ordinal='5' />
+            <column datatype='string' name='Hispanic or Latino (Percent of total employed)' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0qp7lvn1i1figs1fawg1q026eiv0' name='Employed Persons' table='[&apos;Employed Persons$&apos;]' type='table'>
+          <columns gridOrigin='A1:G600:no:A1:G600:0' header='yes' outcome='2'>
+            <column datatype='string' name='Occupation' ordinal='0' />
+            <column datatype='integer' name='Total employed' ordinal='1' />
+            <column datatype='real' name='Women (Percent of total employed)' ordinal='2' />
+            <column datatype='string' name='White (Percent of total employed)' ordinal='3' />
+            <column datatype='string' name='Black or African American (Percent of total employed)' ordinal='4' />
+            <column datatype='string' name='Asian (Percent of total employed)' ordinal='5' />
+            <column datatype='string' name='Hispanic or Latino (Percent of total employed)' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G600:no:A1:G600:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Occupation]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>Occupation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total employed]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>Total employed</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Women (Percent of total employed)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Women (Percent of total employed)]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>Women (Percent of total employed)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White (Percent of total employed)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[White (Percent of total employed)]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>White (Percent of total employed)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black or African American (Percent of total employed)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Black or African American (Percent of total employed)]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>Black or African American (Percent of total employed)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asian (Percent of total employed)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Asian (Percent of total employed)]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>Asian (Percent of total employed)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hispanic or Latino (Percent of total employed)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Hispanic or Latino (Percent of total employed)]</local-name>
+            <parent-name>[Employed Persons]</parent-name>
+            <remote-alias>Hispanic or Latino (Percent of total employed)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Employed Persons' datatype='table' name='[__tableau_internal_object_id__].[Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77]' role='measure' type='quantitative' />
+      <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Project_1.twb Files/Employed Persons (Project 1 data).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Occupation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Occupation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Occupation</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Employed Persons</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>595</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total employed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total employed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total employed</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Employed Persons</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>336</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Women (Percent of total employed)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Women (Percent of total employed)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Women (Percent of total employed)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Employed Persons</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>328</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>White (Percent of total employed)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[White (Percent of total employed)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>White (Percent of total employed)</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Employed Persons</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>239</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Black or African American (Percent of total employed)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Black or African American (Percent of total employed)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Black or African American (Percent of total employed)</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Employed Persons</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>197</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Asian (Percent of total employed)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Asian (Percent of total employed)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Asian (Percent of total employed)</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Employed Persons</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>144</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hispanic or Latino (Percent of total employed)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Hispanic or Latino (Percent of total employed)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hispanic or Latino (Percent of total employed)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Employed Persons</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>213</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Occupation:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Aerospace engineers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Artists and related workers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Biological technicians&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Carpet, floor, and tile installers and finishers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Commercial and industrial designers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Construction and extraction occupations&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Crushing, grinding, polishing, mixing, and blending workers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Dishwashers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Elementary and middle school teachers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Extruding, forming, pressing, and compacting machine setters, operators, and tenders&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;First-line supervisors of landscaping, lawn service, and groundskeeping workers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Food servers, nonrestaurant&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Healthcare social workers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Information security analysts&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Legal secretaries and administrative assistants&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Maintenance and repair workers, general&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Medical assistants&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Models, demonstrators, and product promoters&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Occupational therapists&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Other grounds maintenance workers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Packaging and filling machine operators and tenders&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pharmacy aides&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Precision instrument and equipment repairers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Public relations and fundraising managers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Religious workers, all other&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Secretaries and administrative assistants, except legal, medical, and executive&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Software developers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tailors, dressmakers, and sewers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Transportation and material moving occupations&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Weighers, measurers, checkers, and samplers, recordkeeping&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Accountants and auditors&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Animal caretakers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Architecture and engineering occupations&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bailiffs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Business and financial operations occupations&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Civil engineers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Computer numerically controlled tool operators and programmers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Couriers and messengers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Desktop publishers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Electrical and electronic engineering technologists and technicians&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Environmental science and geoscience technicians&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fire inspectors&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Floral designers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Glaziers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Human resources assistants, except payroll and timekeeping&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Judges, magistrates, and other judicial workers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lodging managers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Marriage and family therapists&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mining and geological engineers, including mining safety engineers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nuclear engineers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Other community and social service specialists&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Other production workers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Personal care aides&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Podiatrists&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Production, transportation, and material moving occupations&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Real estate brokers and sales agents&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sales engineers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Shuttle drivers and chauffeurs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Supervisors of personal care and service workers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Therapists, all other&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ushers, lobby attendants, and ticket takers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Adhesive bonding machine operators and tenders&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Architectural and civil drafters&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bill and account collectors&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cabinetmakers and bench carpenters&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Clinical and counseling psychologists&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Computer systems analysts&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Credit analysts&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dietitians and nutritionists&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Electrical power-line installers and repairers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Executive secretaries and executive administrative assistants&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;First-line supervisors of farming, fishing, and forestry workers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Food preparation and serving related occupations&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Hairdressers, hairstylists, and cosmetologists&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Industrial engineers, including health and safety&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Landscaping and groundskeeping workers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Machinists&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mechanical engineers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Miscellaneous plant and system operators&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nurse midwives&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Other engineering technologists and technicians, except drafters&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Other teachers and instructors&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Personal service managers, all other&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Postal service mail sorters, processors, and processing machine operators&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Property appraisers and assessors&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Refuse and recyclable material collectors&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sawing machine setters, operators, and tenders, wood&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Social and human service assistants&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Survey researchers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Total, 16 years and over&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Waiters and waitresses&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Computer and mathematical occupations&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Agricultural engineers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Atmospheric and space scientists&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Broadcast announcers and radio disc jockeys&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Chemical engineers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Compensation and benefits managers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Control and valve installers and repairers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dancers and choreographers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Drywall installers, ceiling tile installers, and tapers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Emergency management directors&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fashion designers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;First-line supervisors of police and detectives&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fundraisers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Helpers--installation, maintenance, and repair workers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Insurance claims and policy processing clerks&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Library assistants, clerical&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Management, business, and financial operations occupations&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Medical transcriptionists&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Motor vehicle operators, all other&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Office clerks, general&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Other life, physical, and social science technicians&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Paper goods machine setters, operators, and tenders&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Photographic process workers and processing machine operators&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Print binding and finishing workers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Purchasing agents, except wholesale, retail, and farm products&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Retail salespersons&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Septic tank servicers and sewer pipe cleaners&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Speech-language pathologists&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Teaching assistants&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Transportation, storage, and distribution managers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Woodworking machine setters, operators, and tenders, except sawing&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Agents and business managers of artists, performers, and athletes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Arts, design, entertainment, sports, and media occupations&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Boilermakers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cashiers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Commercial divers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Construction equipment operators&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Customer service representatives&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Dispatchers, except police, fire, and ambulance&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Elevator and escalator installers and repairers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Facilities managers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;First-line supervisors of mechanics, installers, and repairers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Food service managers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Healthcare support occupations&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Inspectors, testers, sorters, samplers, and weighers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Legal support workers, all other&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Maintenance workers, machinery&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Medical records specialists&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Molders and molding machine setters, operators, and tenders, metal and plastic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Occupational therapy assistants and aides&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Other healthcare practitioners and technical occupations&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Packers and packagers, hand&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pharmacy technicians&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prepress technicians and workers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Public relations specialists&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Reservation and transportation ticket agents and travel clerks&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Securities, commodities, and financial services sales agents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Software quality assurance analysts and testers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tax examiners and collectors, and revenue agents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Transportation inspectors&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Welding, soldering, and brazing workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Administrative services managers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Architectural and engineering managers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Billing and posting clerks&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cardiovascular technologists and technicians&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Clinical laboratory technologists and technicians&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Computer, automated teller, and office machine repairers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Credit authorizers, checkers, and clerks&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Dining room and cafeteria attendants and bartender helpers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Electrical, electronics, and electromechanical assemblers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Exercise physiologists&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;First-line supervisors of firefighting and prevention workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Food preparation and serving related workers, all other&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hazardous materials removal workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Industrial production managers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Laundry and dry-cleaning workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Magnetic resonance imaging technologists&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Media and communication equipment workers, all other&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Miscellaneous social scientists and related workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nurse practitioners&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Other entertainment attendants and related workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Other textile, apparel, and furnishings workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pest control workers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Postmasters and mail superintendents&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Property, real estate, and community association managers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Registered nurses&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;School bus monitors&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Social science research assistants&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Surveying and mapping technicians&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tour and travel guides&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Water and wastewater treatment plant and system operators&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ambulance drivers and attendants, except emergency medical technicians&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Avionics technicians&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bus drivers, school&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Childcare workers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Computer hardware engineers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Counselors, all other&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Dentists&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Educational, guidance, and career counselors and advisors&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Entertainment and recreation managers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Financial examiners&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Fishing and hunting workers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;General and operations managers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hosts and hostesses, restaurant, lounge, and coffee shop&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Janitors and building cleaners&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Locksmiths and safe repairers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Market research analysts and marketing specialists&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Meter readers, utilities&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;New accounts clerks&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Orderlies and psychiatric aides&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Other physicians&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Passenger attendants&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Plasterers and stucco masons&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Production occupations&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rail-track laying and maintenance equipment operators&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sales and related occupations&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Shipping, receiving, and inventory clerks&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Structural metal fabricators and fitters&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tellers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Upholsterers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Actors&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Animal control workers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bakers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Business operations specialists, all other&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Claims adjusters, appraisers, examiners, and investigators&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Computer occupations, all other&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Court reporters and simultaneous captioners&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Detectives and criminal investigators&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Electrical and electronics engineers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Environmental scientists and specialists, including health&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Firefighters&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Food and tobacco roasting, baking, and drying machine operators and tenders&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Graders and sorters, agricultural products&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Human resources managers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Judicial law clerks&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Logging workers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Massage therapists&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Miscellaneous agricultural workers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nuclear medicine technologists and medical dosimetrists&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Other designers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Other protective service workers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Personal care and service occupations&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Police officers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Professional and related occupations&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Receptionists and information clerks&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sales managers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Skincare specialists&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Supervisors of transportation and material moving workers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tire builders&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Veterinarians&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Aircraft pilots and flight engineers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Automotive glass installers and repairers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Building and grounds cleaning and maintenance occupations&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Chief executives&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Computer and information systems managers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Correspondence clerks&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dental assistants&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Education and childcare administrators&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Engineers, all other&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Financial and investment analysts&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;First-line supervisors of security workers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Gambling cage workers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Home appliance repairers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Interpreters and translators&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Life, physical, and social science occupations&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Manufactured building and mobile home installers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Merchandise displayers and window trimmers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Natural sciences managers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Optometrists&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Other metal workers and plastic workers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Parking enforcement workers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Physician assistants&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Procurement clerks&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Radiologic technologists and technicians&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sailors and marine oilers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ship and boat captains and operators&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Stockers and order fillers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Telephone operators&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Umpires, referees, and other sports officials&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Advertising and promotions managers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bioengineers and biomedical engineers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cargo and freight agents&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Coaches and scouts&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Conservation scientists and foresters&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Credit counselors and loan officers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Directors, religious activities and education&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Electricians&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Exercise trainers and group fitness instructors&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;First-line supervisors of food preparation and serving workers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Food preparation workers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Healthcare diagnosing or treating practitioners, all other&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Industrial truck and tractor operators&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lawyers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Maids and housekeeping cleaners&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Media and communication workers, all other&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nursing assistants&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Other extraction workers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Other transportation workers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Petroleum engineers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Postsecondary teachers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Protective service occupations&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rehabilitation counselors&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;School psychologists&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Social workers, all other&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Surveyors, cartographers, and photogrammetrists&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Training and development managers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Web and digital interface designers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Agricultural inspectors&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Audiologists&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Broadcast, sound, and lighting technicians&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chemical processing machine setters, operators, and tenders&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Compensation, benefits, and job analysis specialists&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Conveyor, dredge, and hoist and winch operators&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Data entry keyers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Earth drillers, except oil and gas&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Emergency medical technicians&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fast food and counter workers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;First-line supervisors of production and operating workers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Funeral home managers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Helpers--production workers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Insurance sales agents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Library technicians&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Management, professional, and related occupations&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Meeting, convention, and event planners&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Music directors and composers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Office machine operators, except computer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Other machine tool setters, operators, and tenders, metal and plastic&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Paralegals and legal assistants&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Physical scientists, all other&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Printing press operators&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Purchasing managers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Riggers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Service occupations&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Stationary engineers and boiler operators&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Technical writers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Travel agents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Word processors and typists&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Air traffic controllers and airfield operations specialists&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Audiovisual equipment installers and repairers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Brokerage clerks&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chemical technicians&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Compliance officers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cooks&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Database administrators and architects&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Economists&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Emergency medicine physicians&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Fence erectors&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;First-line supervisors of protective service workers, all other&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Furnace, kiln, oven, drier, and kettle operators and tenders&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Helpers, construction trades&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Insurance underwriters&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Licensed practical and licensed vocational nurses&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Managers, all other&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mental health and substance abuse social workers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Musicians and singers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Operations research analysts&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Other material moving workers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Paramedics&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Physical therapist assistants and aides&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Private detectives and investigators&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Radiation therapists&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Roofers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sewing machine operators&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Statistical assistants&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Telecommunications line installers and repairers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tree trimmers and pruners&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Writers and authors&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Aircraft structure, surfaces, rigging, and systems assemblers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Automotive service technicians and mechanics&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bus and truck mechanics and diesel engine specialists&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Child, family, and school social workers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cost estimators&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Dental hygienists&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Education, training, and library occupations&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Entertainers and performers, sports and related workers, all other&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Financial clerks, all other&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fish and game wardens&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Gambling services workers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Home health aides&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Interviewers, except eligibility and loan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Loan interviewers and clerks&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Marine engineers and naval architects&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Metal furnace operators, tenders, pourers, and casters&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Network and computer systems administrators&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Order clerks&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Other personal appearance workers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Parts salespersons&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Pipelayers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Producers and directors&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Radiologists&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sales and office occupations&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ship engineers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Structural iron and steel workers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Television, video, and film camera operators and editors&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Underground mining machine operators&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Animal breeders&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Baggage porters, bellhops, and concierges&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bus drivers, transit and intercity&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chiropractors&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Computer network architects&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Counter and rental clerks&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Derrick, rotary drill, and service unit operators, oil and gas&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Electric motor, power tool, and related repairers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Environmental engineers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Financial managers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Flight attendants&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Geoscientists and hydrologists, except geographers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hotel, motel, and resort desk clerks&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Jewelers and precious stone and metal workers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Locomotive engineers and operators&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Marketing managers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Millwrights&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;News analysts, reporters, and journalists&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Other assemblers and fabricators&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Other production equipment operators and tenders&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Payroll and timekeeping clerks&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Plumbers, pipefitters, and steamfitters&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Production, planning, and expediting clerks&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Railroad conductors and yardmasters&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sales and related workers, all other&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Shoe and leather workers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Substance abuse and behavioral disorder counselors&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Textile machine setters, operators, and tenders&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Urban and regional planners&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Agricultural and food science technicians&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Astronomers and physicists&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bookkeeping, accounting, and auditing clerks&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cement masons, concrete finishers, and terrazzo workers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chemists and materials scientists&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Communications equipment operators, all other&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Construction laborers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cutting workers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Door-to-door sales workers, news and street vendors, and related workers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Eligibility interviewers, government programs&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Farmers, ranchers, and other agricultural managers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;First-line supervisors of non-retail sales workers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Forest and conservation workers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Heating, air conditioning, and refrigeration mechanics and installers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Installation, maintenance, and repair occupations&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Legislators&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Management analysts&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medical scientists&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Molders, shapers, and casters, except metal and plastic&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Office and administrative support occupations&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Other healthcare support workers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Painters and paperhangers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Phlebotomists&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Preschool and kindergarten teachers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Public safety telecommunicators&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Residential advisors&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Security and fire alarm systems installers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Solar photovoltaic installers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tax preparers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Transportation security screeners&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wholesale and retail buyers, except farm products&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Advertising sales agents&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Archivists, curators, and museum technicians&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Carpenters&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Coin, vending, and amusement machine servicers and repairers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Construction and building inspectors&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Crossing guards and flaggers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Disc jockeys, except radio&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Electronic equipment installers and repairers, motor vehicles&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Explosives workers, ordnance handling experts, and blasters&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;First-line supervisors of housekeeping and janitorial workers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Food processing workers, all other&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Healthcare practitioners and technical occupations&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Information and record clerks, all other&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Legal occupations&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mail clerks and mail machine operators, except postal service&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Medical and health services managers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Model makers and patternmakers, metal and plastic&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Occupational health and safety specialists and technicians&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Other financial specialists&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Other woodworkers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pharmacists&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Power plant operators, distributors, and dispatchers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Psychiatric technicians&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Reinforcing iron and rebar workers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Secondary school teachers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sociologists&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Switchboard operators, including answering service&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Training and development specialists&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Web developers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Actuaries&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Animal trainers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Barbers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Biological scientists&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Butchers and other meat, poultry, and fish processing workers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cleaners of vehicles and equipment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Computer programmers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Court, municipal, and license clerks&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Diagnostic medical sonographers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Electrical and electronics installers and repairers, transportation equipment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Etchers and engravers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;First-line supervisors of construction trades and extraction workers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Food batchmakers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Graphic designers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Human resources workers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Laborers and freight, stock, and material movers, hand&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Logisticians&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Materials engineers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Miscellaneous construction and related workers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nuclear technicians&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Other drafters&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Other psychologists&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Personal care and service workers, all other&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Postal service clerks&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Project management specialists&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Recreation workers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sales representatives of services, except advertising, insurance, financial services, and travel&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Small engine mechanics&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Surgeons&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Title examiners, abstractors, and searchers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Veterinary assistants and laboratory animal caretakers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Aircraft mechanics and service technicians&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Automotive body and related repairers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Budget analysts&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Computer and information research scientists&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Correctional officers and jailers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Dental and ophthalmic laboratory technicians and medical appliance technicians&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Editors&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Engine and other machine assemblers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;File clerks&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;First-line supervisors of retail sales workers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Furniture finishers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Highway maintenance workers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Interior designers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Life scientists, all other&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Manicurists and pedicurists&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mental health counselors&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Natural resources, construction, and maintenance occupations&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Opticians, dispensing&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Other mathematical science occupations&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Parking attendants&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Physical therapists&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Probation officers and correctional treatment specialists&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Radio and telecommunications equipment installers and repairers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Roustabouts, oil and gas&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sheet metal workers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Statisticians&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Telemarketers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tutors&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Agricultural and food scientists&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Athletes and sports competitors&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Brickmasons, blockmasons, and stonemasons&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Chefs and head cooks&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Community and social service occupations&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Construction managers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cutting, punching, and press machine setters, operators, and tenders, metal and plastic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Driver/sales workers and truck drivers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Embalmers, crematory operators, and funeral attendants&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Farming, fishing, and forestry occupations&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;First-line supervisors of office and administrative support workers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Forming machine setters, operators, and tenders, metal and plastic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Heavy vehicle and mobile equipment service technicians and mechanics&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Insulation workers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Librarians and media collections specialists&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Management occupations&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Medical secretaries and administrative assistants&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Morticians, undertakers, and funeral arrangers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Office and administrative support workers, all other&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Other installation, maintenance, and repair workers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Painting workers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Photographers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pressers, textile, garment, and related materials&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pumping station operators&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Respiratory therapists&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Security guards and gambling surveillance officers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Special education teachers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Taxi drivers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Transportation service attendants&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Wind turbine service technicians&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Acupuncturists&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Architects, except landscape and naval&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bartenders&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Buyers and purchasing agents, farm products&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Clergy&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Computer support specialists&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Crane and tower operators&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Dietetic technicians and ophthalmic medical technicians&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Electrical and electronics repairers, industrial and utility&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Excavating and loading machine and dragline operators, surface mining&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;First-line supervisors of correctional officers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Food cooking machine operators and tenders&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Industrial and refractory machinery mechanics&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Landscape architects&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Machine feeders and offbearers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mathematicians&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Miscellaneous health technologists and technicians&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nurse anesthetists&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Other educational instruction and library workers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Other rail transportation workers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Personal financial advisors&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Postal service mail carriers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Proofreaders and copy markers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Recreational therapists&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sales representatives, wholesale and manufacturing&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Social and community service managers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Surgical technologists&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tool and die makers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Veterinary technologists and technicians&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Employed Persons' id='Employed Persons_76B49B18F0B541D2AA1CFA4B91BD8A77'>
+            <properties context=''>
+              <relation connection='excel-direct.0qp7lvn1i1figs1fawg1q026eiv0' name='Employed Persons' table='[&apos;Employed Persons$&apos;]' type='table'>
+                <columns gridOrigin='A1:G600:no:A1:G600:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Occupation' ordinal='0' />
+                  <column datatype='integer' name='Total employed' ordinal='1' />
+                  <column datatype='real' name='Women (Percent of total employed)' ordinal='2' />
+                  <column datatype='string' name='White (Percent of total employed)' ordinal='3' />
+                  <column datatype='string' name='Black or African American (Percent of total employed)' ordinal='4' />
+                  <column datatype='string' name='Asian (Percent of total employed)' ordinal='5' />
+                  <column datatype='string' name='Hispanic or Latino (Percent of total employed)' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Women Graduated (Project 1 data)' inline='true' name='federated.1k86a1q1e7p2up1ekqeu30mc2e0f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Project 1 data' name='excel-direct.016u5ye171nzep193jerc1ji0js6'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Project_1/Project 1 data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.016u5ye171nzep193jerc1ji0js6' name='Women Graduated' table='[&apos;Women Graduated$&apos;]' type='table'>
+          <columns gridOrigin='A1:H17:no:A1:H17:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Physical sciences' ordinal='1' />
+            <column datatype='real' name='Biological and agricultural sciences' ordinal='2' />
+            <column datatype='real' name='Mathematics and statistics' ordinal='3' />
+            <column datatype='real' name='Computer sciences' ordinal='4' />
+            <column datatype='real' name='Psychology' ordinal='5' />
+            <column datatype='real' name='Social sciences' ordinal='6' />
+            <column datatype='real' name='Engineering' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.016u5ye171nzep193jerc1ji0js6' name='Women Graduated' table='[&apos;Women Graduated$&apos;]' type='table'>
+          <columns gridOrigin='A1:H17:no:A1:H17:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Physical sciences' ordinal='1' />
+            <column datatype='real' name='Biological and agricultural sciences' ordinal='2' />
+            <column datatype='real' name='Mathematics and statistics' ordinal='3' />
+            <column datatype='real' name='Computer sciences' ordinal='4' />
+            <column datatype='real' name='Psychology' ordinal='5' />
+            <column datatype='real' name='Social sciences' ordinal='6' />
+            <column datatype='real' name='Engineering' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H17:no:A1:H17:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physical sciences</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Physical sciences]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Physical sciences</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biological and agricultural sciences</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Biological and agricultural sciences]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Biological and agricultural sciences</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mathematics and statistics</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mathematics and statistics]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Mathematics and statistics</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Computer sciences</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Computer sciences]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Computer sciences</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Psychology</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Psychology]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Psychology</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social sciences</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social sciences]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Social sciences</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engineering</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Engineering]</local-name>
+            <parent-name>[Women Graduated]</parent-name>
+            <remote-alias>Engineering</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Women Graduated' datatype='table' name='[__tableau_internal_object_id__].[Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Project_1.twb Files/Women Graduated (Project 1 data).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Women Graduated</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Physical sciences</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Physical sciences]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Physical sciences</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Biological and agricultural sciences</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Biological and agricultural sciences]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Biological and agricultural sciences</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mathematics and statistics</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mathematics and statistics]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mathematics and statistics</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Computer sciences</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Computer sciences]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Computer sciences</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Psychology</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Psychology]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Psychology</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Social sciences</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Social sciences]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Social sciences</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Engineering</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Engineering]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Engineering</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Women Graduated</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Women Graduated' id='Women Graduated_3D9C67D5ADF94ACE927C8E15358D5B1E'>
+            <properties context=''>
+              <relation connection='excel-direct.016u5ye171nzep193jerc1ji0js6' name='Women Graduated' table='[&apos;Women Graduated$&apos;]' type='table'>
+                <columns gridOrigin='A1:H17:no:A1:H17:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='real' name='Physical sciences' ordinal='1' />
+                  <column datatype='real' name='Biological and agricultural sciences' ordinal='2' />
+                  <column datatype='real' name='Mathematics and statistics' ordinal='3' />
+                  <column datatype='real' name='Computer sciences' ordinal='4' />
+                  <column datatype='real' name='Psychology' ordinal='5' />
+                  <column datatype='real' name='Social sciences' ordinal='6' />
+                  <column datatype='real' name='Engineering' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Q.1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Arial Black'>Pie graph of Womens in various field</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employed Persons (Project 1 data)' name='federated.11ie2tz0rr2u4a175r3nj1nlz5un' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11ie2tz0rr2u4a175r3nj1nlz5un'>
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_914512225704120325]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_914512225704165383]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Women (Percent of total employed)]' role='measure' type='quantitative' />
+            <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Women (Percent of total employed)]' derivation='None' name='[none:Women (Percent of total employed):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Women (Percent of total employed)]' derivation='Sum' name='[sum:Women (Percent of total employed):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_914512225704120325]' derivation='User' name='[usr:Calculation_914512225704120325:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_914512225704165383]' derivation='User' name='[usr:Calculation_914512225704165383:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Occupation:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;Architecture and engineering occupations&quot;' />
+              <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;Biological scientists&quot;' />
+              <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;Chemists and materials scientists&quot;' />
+              <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;Computer and mathematical occupations&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Occupation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704120325:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704165383:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704165383:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Women (Percent of total employed):qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704120325:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Occupation:nk]' />
+              <size column='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[sum:Women (Percent of total employed):qk]' />
+              <text column='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Occupation:nk]' />
+              <text column='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Women (Percent of total employed):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.3038673400878906' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704165383:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.9010497331619263' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704120325:qk] + [federated.11ie2tz0rr2u4a175r3nj1nlz5un].[usr:Calculation_914512225704165383:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{3A2630FD-CAE3-4DEA-AF9B-0E1B49E554FA}' />
+    </worksheet>
+    <worksheet name='Q.2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Arial Black'>Women are graduating in Computer science and Engineering from 2000-2015</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#0000007f' fontname='Poppins' fontsize='16'>5.29%  of women are graduating from Computer science and 6.43 </run>
+            <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>of women are graduating from </run>
+            <run fontcolor='#0000007f' fontname='Poppins' fontsize='16'>Engineering by 2015</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Women Graduated (Project 1 data)' name='federated.1k86a1q1e7p2up1ekqeu30mc2e0f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k86a1q1e7p2up1ekqeu30mc2e0f'>
+            <column datatype='real' name='[Computer sciences]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Engineering]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Computer sciences]' derivation='Sum' name='[pcto:sum:Computer sciences:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Engineering]' derivation='Sum' name='[pcto:sum:Engineering:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Computer sciences]' derivation='Sum' name='[sum:Computer sciences:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Engineering]' derivation='Sum' name='[sum:Engineering:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Computer sciences:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Engineering:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[sum:Engineering:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d2e9e3</color>
+                <color>#b5e2d7</color>
+                <color>#99dbcb</color>
+                <color>#7fd4bf</color>
+                <color>#66cdb3</color>
+                <color>#4fc6a8</color>
+                <color>#39bf9d</color>
+                <color>#24b892</color>
+                <color>#11b188</color>
+                <color>#00aa7f</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Engineering:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d2e9e3</color>
+                <color>#b5e2d7</color>
+                <color>#99dbcb</color>
+                <color>#7fd4bf</color>
+                <color>#66cdb3</color>
+                <color>#4fc6a8</color>
+                <color>#39bf9d</color>
+                <color>#24b892</color>
+                <color>#11b188</color>
+                <color>#00aa7f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Computer sciences:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[sum:Computer sciences:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Engineering:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[sum:Engineering:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Computer sciences:qk] + [federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[pcto:sum:Engineering:qk])</rows>
+        <cols>[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{BF5B19DD-EC01-499A-BAC3-4099A8AC47F2}' />
+    </worksheet>
+    <worksheet name='Q.3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Arial Black'>Women are in stem jobs by education</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#0000007f' fontname='Poppins' fontsize='16'>25.19%  of women are in health-related jobs with their master’s education and Professional/Doctoral Degree.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Stem jobs by Education (Project 1 data)' name='federated.041jxpb1f4l7r011acbhl1r9t4j6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.041jxpb1f4l7r011acbhl1r9t4j6'>
+            <column datatype='string' name='[Bachelor&apos;s degree]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[High school or less]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Master&apos;s degree]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Professional Doctoral degree]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Some college]' role='measure' type='quantitative' />
+            <column-instance column='[Bachelor&apos;s degree]' derivation='None' name='[none:Bachelor&apos;s degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[High school or less]' derivation='None' name='[none:High school or less:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Professional Doctoral degree]' derivation='None' name='[none:Professional Doctoral degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Master&apos;s degree]' derivation='Sum' name='[pcto:sum:Master&apos;s degree:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Some college]' derivation='Sum' name='[pcto:sum:Some college:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Master&apos;s degree:qk:2]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.041jxpb1f4l7r011acbhl1r9t4j6].[pcto:sum:Some college:qk:3]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.041jxpb1f4l7r011acbhl1r9t4j6].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[:Measure Names]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.041jxpb1f4l7r011acbhl1r9t4j6].[Multiple Values]</rows>
+        <cols>([federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:F1:nk] / ([federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:Bachelor&apos;s degree:nk] / ([federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:High school or less:nk] / ([federated.041jxpb1f4l7r011acbhl1r9t4j6].[none:Professional Doctoral degree:nk] / [federated.041jxpb1f4l7r011acbhl1r9t4j6].[:Measure Names]))))</cols>
+        <percentages enabled='true' mode='table' />
+      </table>
+      <simple-id uuid='{6273FB08-1412-4A55-8664-53BE6FD1DAA4}' />
+    </worksheet>
+    <worksheet name='Q.4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Arial Black'>Men and women working in the related fields of their education.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#0000007f' fontname='Poppins' fontsize='16'>38% of women are working in computers and Mans are majored in Computers.</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#0000007f' fontname='Poppins' fontsize='16'>24% of women are working in Engineering jobs and Mans are majored in Engineering.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Professional workin in same maj (Project 1 data)' name='federated.16j4pp21qlwrj91gciwem192mmq0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16j4pp21qlwrj91gciwem192mmq0'>
+            <column datatype='integer' name='[Men (%)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Profession]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Professional workin in same maj' datatype='integer' name='[__tableau_internal_object_id__].[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Women (%)]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Professional workin in same maj' datatype='table' name='[__tableau_internal_object_id__].[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Profession]' derivation='None' name='[none:Profession:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Men (%)]' derivation='Sum' name='[sum:Men (%):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Women (%)]' derivation='Sum' name='[sum:Women (%):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16j4pp21qlwrj91gciwem192mmq0].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.16j4pp21qlwrj91gciwem192mmq0].[sum:Men (\%):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.16j4pp21qlwrj91gciwem192mmq0].[sum:Women (\%):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.16j4pp21qlwrj91gciwem192mmq0].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.16j4pp21qlwrj91gciwem192mmq0].[sum:Men (\%):qk]&quot;</bucket>
+              <bucket>&quot;[federated.16j4pp21qlwrj91gciwem192mmq0].[sum:Women (\%):qk]&quot;</bucket>
+              <bucket>&quot;[federated.16j4pp21qlwrj91gciwem192mmq0].[__tableau_internal_object_id__].[cnt:Professional workin in same maj_8501ABC53D2C4B779A0DEFF4A1B7E2E2:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.16j4pp21qlwrj91gciwem192mmq0].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.16j4pp21qlwrj91gciwem192mmq0].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16j4pp21qlwrj91gciwem192mmq0].[none:Profession:nk]</rows>
+        <cols>[federated.16j4pp21qlwrj91gciwem192mmq0].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{F410481A-4A42-49CF-9E08-F58CA9D01CEF}' />
+    </worksheet>
+    <worksheet name='Q.5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Arial Black' fontsize='16'>Salaries by ethnicity</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#0000007f' fontname='Poppins' fontsize='16'>Asian Mens salary is 96311$ and asian womens salary is 81011$.So Mens salary is grater then womens salary that is 15300$.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Median Annual Earnings (Project 1 data)' name='federated.1tpo3ms1up7dda1f4v4ev08gixff' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tpo3ms1up7dda1f4v4ev08gixff'>
+            <column datatype='integer' name='[All (Dollars)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Ethnicity]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Men (Dollars)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Women (Dollars)]' role='measure' type='quantitative' />
+            <column-instance column='[Ethnicity]' derivation='None' name='[none:Ethnicity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[All (Dollars)]' derivation='Sum' name='[sum:All (Dollars):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Men (Dollars)]' derivation='Sum' name='[sum:Men (Dollars):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Women (Dollars)]' derivation='Sum' name='[sum:Women (Dollars):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tpo3ms1up7dda1f4v4ev08gixff].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tpo3ms1up7dda1f4v4ev08gixff].[sum:All (Dollars):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tpo3ms1up7dda1f4v4ev08gixff].[sum:Men (Dollars):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tpo3ms1up7dda1f4v4ev08gixff].[sum:Women (Dollars):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1tpo3ms1up7dda1f4v4ev08gixff].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1tpo3ms1up7dda1f4v4ev08gixff].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tpo3ms1up7dda1f4v4ev08gixff].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tpo3ms1up7dda1f4v4ev08gixff].[:Measure Names] / [federated.1tpo3ms1up7dda1f4v4ev08gixff].[none:Ethnicity:nk])</rows>
+        <cols>[federated.1tpo3ms1up7dda1f4v4ev08gixff].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{F8380638-2F48-4FD3-AFD1-D848C1210911}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Arial Black' fontsize='22' italic='true'>Analysis of Education Trends in Tamil Nadu</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='2300' maxwidth='1100' minheight='2300' minwidth='1100' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99304' id='30' param='vert' type-v2='layout-flow' w='98546' x='727' y='348'>
+            <zone fixed-size='71' h='3435' id='31' is-fixed='true' type-v2='title' w='98546' x='727' y='348'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='95869' id='28' type-v2='layout-basic' w='98546' x='727' y='3783'>
+              <zone h='91174' id='12' param='horz' type-v2='layout-flow' w='98546' x='727' y='3783'>
+                <zone h='91174' id='10' type-v2='layout-basic' w='98546' x='727' y='3783'>
+                  <zone h='16876' id='9' name='Q.1' w='98546' x='727' y='3783'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='16884' id='15' name='Q.2' w='68728' x='30545' y='20659'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='16880' id='18' name='Q.3' w='69182' x='727' y='37543'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20263' id='20' name='Q.4' w='69091' x='30182' y='54423'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20271' id='21' name='Q.5' w='71000' x='727' y='74686'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='16884' id='22' type-v2='text' w='29818' x='727' y='20659'>
+                    <formatted-text>
+                      <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>5.29%  of women are graduating from Computer science and 6.43 of women are graduating from Engineering by 2015</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='16880' id='23' type-v2='text' w='29364' x='69909' y='37543'>
+                    <formatted-text>
+                      <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>25.19%  of women are in health-related jobs with their master’s education and Professional/Doctoral Degree.</run>
+                      <run>Æ&#10;</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20263' id='24' type-v2='text' w='29455' x='727' y='54423'>
+                    <formatted-text>
+                      <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>38% of women are working in computers and Mans are majored in Computers.</run>
+                      <run>Æ&#10;</run>
+                      <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>24% of women are working in Engineering jobs and Mans are majored in Engineering.</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20271' id='25' type-v2='text' w='27546' x='71727' y='74686'>
+                    <formatted-text>
+                      <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>Asian Mens salary is 96311$ and asian womens salary is 81011$.So Mens salary is grater then womens salary that is 15300$.</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone forceUpdate='true' h='4695' id='27' type-v2='text' w='98546' x='727' y='94957'>
+                <formatted-text>
+                  <run bold='true' fontcolor='#000000' fontname='Lucida Console' fontsize='11' italic='true'>There is a need to improve the status of women in STEM jobs and they need to be given more opportunities so that they can become more independent.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial Black' fontsize='22' italic='true'>Analysis of Education Trends in Tamil Nadu</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1850' minheight='1850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99304' id='34' param='vert' type-v2='layout-flow' w='98546' x='727' y='348'>
+                <zone fixed-size='71' h='3435' id='31' type-v2='title' w='98546' x='727' y='348'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='16876' id='9' is-fixed='true' name='Q.1' w='98546' x='727' y='3783'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16884' id='22' type-v2='text' w='29818' x='727' y='20659'>
+                  <formatted-text>
+                    <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>5.29%  of women are graduating from Computer science and 6.43 of women are graduating from Engineering by 2015</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='16884' id='15' is-fixed='true' name='Q.2' w='68728' x='30545' y='20659'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='16880' id='18' is-fixed='true' name='Q.3' w='69182' x='727' y='37543'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16880' id='23' type-v2='text' w='29364' x='69909' y='37543'>
+                  <formatted-text>
+                    <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>25.19%  of women are in health-related jobs with their master’s education and Professional/Doctoral Degree.</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20263' id='24' type-v2='text' w='29455' x='727' y='54423'>
+                  <formatted-text>
+                    <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>38% of women are working in computers and Mans are majored in Computers.</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>24% of women are working in Engineering jobs and Mans are majored in Engineering.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='20263' id='20' is-fixed='true' name='Q.4' w='69091' x='30182' y='54423'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='20271' id='21' is-fixed='true' name='Q.5' w='71000' x='727' y='74686'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20271' id='25' type-v2='text' w='27546' x='71727' y='74686'>
+                  <formatted-text>
+                    <run fontcolor='#0000007e' fontname='Poppins' fontsize='16'>Asian Mens salary is 96311$ and asian womens salary is 81011$.So Mens salary is grater then womens salary that is 15300$.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4695' id='27' type-v2='text' w='98546' x='727' y='94957'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Lucida Console' fontsize='11' italic='true'>There is a need to improve the status of women in STEM jobs and they need to be given more opportunities so that they can become more independent.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{840B8F64-679B-4511-B4C5-6FCD34D7ABE7}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='141'>
+    <window class='worksheet' maximized='true' name='Q.1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[none:Occupation:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.11ie2tz0rr2u4a175r3nj1nlz5un].[sum:Women (Percent of total employed):qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{E5441244-4F35-44EE-BF6D-B5065D98777F}' />
+    </window>
+    <window class='worksheet' name='Q.2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[sum:Computer sciences:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.1k86a1q1e7p2up1ekqeu30mc2e0f].[sum:Engineering:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{69E0F79A-2021-4E05-9E11-923652534D8E}' />
+    </window>
+    <window class='worksheet' name='Q.3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.041jxpb1f4l7r011acbhl1r9t4j6].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{017701CF-918F-4879-B64C-F0E81AAA89E9}' />
+    </window>
+    <window class='worksheet' name='Q.4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{AFB94CBA-D73E-4A31-935C-D821C2859D36}' />
+    </window>
+    <window class='worksheet' name='Q.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tpo3ms1up7dda1f4v4ev08gixff].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{961DBFB5-F89F-4A98-B088-F8DB09EE89CA}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Q.1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q.2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q.3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q.4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q.5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A456EEEE-B607-47CF-A858-7819C1B519D5}' />
+    </window>
+  </windows>
+</workbook>
